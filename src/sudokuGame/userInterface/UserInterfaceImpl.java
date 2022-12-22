@@ -1,4 +1,4 @@
-package sudoku.userInterface;
+package sudokuGame.userInterface;
 
 import javafx.event.EventHandler;
 import javafx.geometry.Pos;
@@ -15,9 +15,9 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-import sudoku.constants.GameState;
-import sudoku.problemDomain.Coordinates;
-import sudoku.problemDomain.SudokuGame;
+import sudokuGame.constants.GameState;
+import sudokuGame.problemDomain.Coordinates;
+import sudokuGame.problemDomain.SudokuGame;
 
 //import java.awt.*;
 import java.util.HashMap;

@@ -1,8 +1,8 @@
-package sudoku.problemDomain;
+package sudokuGame.problemDomain;
 
 import java.io.IOException;
 
-public interface InterfaceStorage {
+public interface IStorage {
     void updateGameData(SudokuGame game) throws IOException;
     SudokuGame getGameData() throws IOException;
 }

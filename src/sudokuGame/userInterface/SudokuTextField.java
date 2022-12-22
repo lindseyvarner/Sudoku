@@ -1,4 +1,4 @@
-package sudoku.userInterface;
+package sudokuGame.userInterface;
 
 import javafx.scene.control.TextField;
 

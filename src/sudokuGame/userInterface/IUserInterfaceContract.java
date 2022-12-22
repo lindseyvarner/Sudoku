@@ -1,6 +1,6 @@
-package sudoku.userInterface;
+package sudokuGame.userInterface;
 
-import sudoku.problemDomain.SudokuGame;
+import sudokuGame.problemDomain.SudokuGame;
 
 public interface IUserInterfaceContract {
     interface EventListener {
