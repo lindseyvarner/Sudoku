@@ -1,12 +1,9 @@
-package sudokuGame;
+package sudoku;
 
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
-import javafx.scene.Parent;
 import javafx.stage.Stage;
-import sudokuGame.userInterface.IUserInterfaceContract;
-import sudokuGame.userInterface.UserInterfaceImpl;
+import sudoku.userInterface.IUserInterfaceContract;
+import sudoku.userInterface.UserInterfaceImpl;
 
 
 import java.io.IOException;

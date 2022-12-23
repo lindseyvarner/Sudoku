@@ -1,10 +1,11 @@
-package sudokuGame.userInterface.logic;
+package sudoku.userInterface.logic;
 
-import sudokuGame.constants.GameState;
-import sudokuGame.constants.Messages;
-import sudokuGame.problemDomain.IStorage;
-import sudokuGame.problemDomain.SudokuGame;
-import sudokuGame.userInterface.IUserInterfaceContract;
+import sudoku.computationLogic.GameLogic;
+import sudoku.constants.GameState;
+import sudoku.constants.Messages;
+import sudoku.problemDomain.IStorage;
+import sudoku.problemDomain.SudokuGame;
+import sudoku.userInterface.IUserInterfaceContract;
 
 import java.io.IOException;
 
