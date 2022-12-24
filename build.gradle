@@ -1,0 +1,27 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.11'
+}
+
+group 'com.lindseyvarner'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainModule.set('com.lindseyvarner.sudoku')
+    mainClass.set('com.lindseyvarner.sudoku.SudokuApplication')
+}
+
+java {
+    modularity.inferModulePath.set(true)
+}
+javafx {
+    version = "17"
+    modules = ['javafx.controls', 'javafx.graphics']
+}
+dependencies {
+    implementation 'org.openjfx:javafx:17.0.0.1'
+}
