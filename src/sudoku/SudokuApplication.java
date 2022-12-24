@@ -2,6 +2,7 @@ package sudoku;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
+import sudoku.buildLogic.SudokuBuildLogic;
 import sudoku.userInterface.IUserInterfaceContract;
 import sudoku.userInterface.UserInterfaceImpl;
 

@@ -19,12 +19,9 @@ import sudoku.constants.GameState;
 import sudoku.problemDomain.Coordinates;
 import sudoku.problemDomain.SudokuGame;
 
-//import java.awt.*;
 import java.util.HashMap;
 
-public class UserInterfaceImpl implements IUserInterfaceContract.View,
-        EventHandler<KeyEvent> {
-
+public class UserInterfaceImpl implements IUserInterfaceContract.View, EventHandler <KeyEvent> {
     private final Stage stage;
     private final Group root;
 
