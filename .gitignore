@@ -2,3 +2,5 @@
 Sudoku.iml
 .idea/
 out/
+.gradle/
+build/
