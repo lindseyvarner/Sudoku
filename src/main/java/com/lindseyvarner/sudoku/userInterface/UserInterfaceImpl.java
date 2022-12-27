@@ -33,8 +33,8 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View, EventHand
     private static final double BOARD_PADDING = 50;
     private static final double BOARD_X_AND_Y = 576;
 
-    private static final Color WINDOW_BACKGROUND_COLOR = Color.rgb(95, 75, 102);
-    private static final Color BOARD_BACKGROUND_COLOR = Color.rgb(239, 247, 246);
+    private static final Color WINDOW_BACKGROUND_COLOR = Color.rgb(70, 63, 58);
+    private static final Color BOARD_BACKGROUND_COLOR = Color.rgb(244, 243, 238);
     private static final String SUDOKU = "Sudoku";
 
     public UserInterfaceImpl(Stage stage) {
@@ -146,8 +146,8 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View, EventHand
 
     private void drawTitle(Group root) {
         Text title = new Text(280, 690, SUDOKU);
-        title.setFill(Color.rgb(239, 247, 246));
-        Font titleFont = new Font("serif italic",42);
+        title.setFill(Color.rgb(244, 243, 238));
+        Font titleFont = new Font("serif italic",38);
         title.setFont(titleFont);
         root.getChildren().add(title);
     }
@@ -196,10 +196,10 @@ public class UserInterfaceImpl implements IUserInterfaceContract.View, EventHand
                 if (game.getGameState() == GameState.NEW) {
                     if (value.equals("")) {
                         tile.setStyle("-fx-opacity: 1;");
-                        //tile.setStyle("-fx-text-fill: rgb(95, 75, 102);");
+                        tile.setStyle("-fx-text-fill: rgb(70, 63, 58);");
                         tile.setDisable(false);
                     } else {
-                        tile.setStyle("-fx-text-fill: rgb(95, 75, 102);");
+                        tile.setStyle("-fx-text-fill: rgb(70, 63, 58);");
                         tile.setDisable(true);
                     }
                 }
