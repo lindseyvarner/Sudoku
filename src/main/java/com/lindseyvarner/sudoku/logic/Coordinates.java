@@ -1,4 +1,4 @@
-package com.lindseyvarner.sudoku.problemDomain;
+package com.lindseyvarner.sudoku.logic;
 
 import java.util.Objects;
 

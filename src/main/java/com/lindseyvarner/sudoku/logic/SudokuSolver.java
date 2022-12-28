@@ -1,8 +1,6 @@
-package com.lindseyvarner.sudoku.computationLogic;
+package com.lindseyvarner.sudoku.logic;
 
-import com.lindseyvarner.sudoku.problemDomain.Coordinates;
-
-import static com.lindseyvarner.sudoku.problemDomain.SudokuGame.GRID_BOUNDARY;
+import static com.lindseyvarner.sudoku.logic.SudokuGame.GRID_BOUNDARY;
 
 public class SudokuSolver {
     public static boolean puzzleIsSolvable(int[][] puzzle) {

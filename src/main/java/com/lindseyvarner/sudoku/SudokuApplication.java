@@ -2,7 +2,7 @@ package com.lindseyvarner.sudoku;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
-import com.lindseyvarner.sudoku.buildLogic.SudokuBuildLogic;
+import com.lindseyvarner.sudoku.logic.SudokuBuildLogic;
 import com.lindseyvarner.sudoku.userInterface.IUserInterfaceContract;
 import com.lindseyvarner.sudoku.userInterface.UserInterfaceImpl;
 

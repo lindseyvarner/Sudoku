@@ -1,11 +1,8 @@
-package com.lindseyvarner.sudoku.buildLogic;
+package com.lindseyvarner.sudoku.logic;
 
-import com.lindseyvarner.sudoku.computationLogic.GameLogic;
 import com.lindseyvarner.sudoku.persistence.LocalStorageImpl;
-import com.lindseyvarner.sudoku.problemDomain.IStorage;
-import com.lindseyvarner.sudoku.problemDomain.SudokuGame;
+import com.lindseyvarner.sudoku.persistence.IStorage;
 import com.lindseyvarner.sudoku.userInterface.IUserInterfaceContract;
-import com.lindseyvarner.sudoku.userInterface.logic.ControlLogic;
 
 import java.io.IOException;
 

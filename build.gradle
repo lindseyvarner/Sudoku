@@ -25,3 +25,13 @@ javafx {
 dependencies {
     implementation 'org.openjfx:javafx:17.0.0.1'
 }
+
+tasks.withType(JavaCompile) {
+    options.release = 17
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(17))
+    }
+}

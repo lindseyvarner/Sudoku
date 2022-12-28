@@ -1,12 +1,10 @@
-package com.lindseyvarner.sudoku.computationLogic;
-
-import com.lindseyvarner.sudoku.problemDomain.Coordinates;
+package com.lindseyvarner.sudoku.logic;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import static com.lindseyvarner.sudoku.problemDomain.SudokuGame.GRID_BOUNDARY;
+import static com.lindseyvarner.sudoku.logic.SudokuGame.GRID_BOUNDARY;
 
 public class GameGenerator {
     public static int[][] getNewGameGrid() {

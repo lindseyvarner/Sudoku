@@ -1,14 +1,13 @@
-package com.lindseyvarner.sudoku.computationLogic;
+package com.lindseyvarner.sudoku.logic;
 
 import com.lindseyvarner.sudoku.constants.GameState;
 import com.lindseyvarner.sudoku.constants.Rows;
-import com.lindseyvarner.sudoku.problemDomain.SudokuGame;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import static com.lindseyvarner.sudoku.problemDomain.SudokuGame.GRID_BOUNDARY;
+import static com.lindseyvarner.sudoku.logic.SudokuGame.GRID_BOUNDARY;
 
 public class GameLogic {
     public static SudokuGame getNewGame() {

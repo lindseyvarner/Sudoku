@@ -1,7 +1,6 @@
 package com.lindseyvarner.sudoku.persistence;
 
-import com.lindseyvarner.sudoku.problemDomain.IStorage;
-import com.lindseyvarner.sudoku.problemDomain.SudokuGame;
+import com.lindseyvarner.sudoku.logic.SudokuGame;
 
 import java.io.*;
 

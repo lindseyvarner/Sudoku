@@ -1,6 +1,6 @@
 package com.lindseyvarner.sudoku.userInterface;
 
-import com.lindseyvarner.sudoku.problemDomain.SudokuGame;
+import com.lindseyvarner.sudoku.logic.SudokuGame;
 
 public interface IUserInterfaceContract {
     interface EventListener {

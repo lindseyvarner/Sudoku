@@ -1,6 +1,6 @@
-package com.lindseyvarner.sudoku.problemDomain;
+package com.lindseyvarner.sudoku.logic;
 
-import com.lindseyvarner.sudoku.computationLogic.SudokuUtilities;
+import com.lindseyvarner.sudoku.logic.SudokuUtilities;
 import com.lindseyvarner.sudoku.constants.GameState;
 
 import java.io.Serializable;

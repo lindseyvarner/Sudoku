@@ -16,8 +16,8 @@ import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import com.lindseyvarner.sudoku.constants.GameState;
-import com.lindseyvarner.sudoku.problemDomain.Coordinates;
-import com.lindseyvarner.sudoku.problemDomain.SudokuGame;
+import com.lindseyvarner.sudoku.logic.Coordinates;
+import com.lindseyvarner.sudoku.logic.SudokuGame;
 
 import java.util.HashMap;
 

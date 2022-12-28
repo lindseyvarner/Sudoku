@@ -1,6 +1,4 @@
-package com.lindseyvarner.sudoku.computationLogic;
-
-import com.lindseyvarner.sudoku.problemDomain.SudokuGame;
+package com.lindseyvarner.sudoku.logic;
 
 public class SudokuUtilities {
     public static void copySudokuArrayValues(int[][] oldArray, int[][] newArray) {
